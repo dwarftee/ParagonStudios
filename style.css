@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'headerfont'; /* A name to be used later */
+    src: url('headerfont.otf'); /* URL to font */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #1f1e1d;
+}
+
+#mainheader a {
+    color: orange; /* Change the text color to orange */
+    text-decoration: none; /* Remove the underline */
+    font-size: 1.5em; /* Adjusted font size */
+    display: block; /* Make the anchor a block element to center it */
+    margin: 0 auto; /* Center the anchor */
+    position: relative;
+    top: 48px; /* Adjust this value to move closer to the h2 */
+    font-family: 'headerfont'; /* Apply the custom font */
+    left: 43%;
+}
+
+#mainheader img {
+    position: absolute;
+    left: 50%; /* Use 'left' to move it to the right from the left side */
+    transform: translateX(-50%); /* Center the image */
+}
+.sidebar {
+  border-radius: 10px;
+  padding: 15px;
+  height: 750px;
+  width: 170px;
+  background-color: #333130;
+  position: relative;
+  top: -10px;
+}
